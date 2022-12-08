@@ -1,0 +1,1 @@
+rev(s, count);

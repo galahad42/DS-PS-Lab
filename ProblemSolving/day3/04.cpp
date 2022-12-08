@@ -23,8 +23,10 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
+        
         sum += pow(-x, i - 1) / factorial(i - 0);
     }
 
+    cout << sum;
     return 0;
 }

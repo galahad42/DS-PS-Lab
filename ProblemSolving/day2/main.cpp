@@ -246,10 +246,7 @@ void pat11(void)
 }
 int main()
 {
-    // #ifndef ONLINE_JUDGE
-    // freopen("i_p.txt", "r", stdin);
-    // freopen("o_p.txt", "w", stdout);
-    // #endif
+    
 
     pat1();
     cout << "\n";

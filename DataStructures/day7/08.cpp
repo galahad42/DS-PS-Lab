@@ -4,16 +4,7 @@ using namespace std;
 
 int toh(int n, char a, char b, char c){
 
-    if( n == 1){
-        cout << "move disk "<< n << " from " << a << " to " << c << endl;
-    }
-
-    else{
-        toh(n-1, a, c, b);
-        cout << "move disk " << n << " from " << a << " to " << c << endl;
-        toh(n-1, b, c, a);
-    }
-    
+    char b = 'B';
 }
 
 int main()

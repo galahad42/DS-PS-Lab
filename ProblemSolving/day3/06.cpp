@@ -21,10 +21,13 @@ int main()
     cin >> n;
     int sum = 0;
     int j = 0;
-    for (int i = 1; i <= n; i++, j++)
+    for (int i = 1; i <= n; i++)
     {
         sum += pow(-1, j) * pow(x, i - 1) / factorial(i);
+        j++;
     }
+
+    cout << sum;
 
     return 0;
 }

@@ -26,5 +26,7 @@ int main()
         sum += pow(-1, j)*pow(x, i - 1) / factorial(i - 0);
     }
 
+    cout<< sum;
+
     return 0;
 }

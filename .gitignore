@@ -3,3 +3,5 @@ DataScience/
 DSTL/
 MERN/
 *.exe
+.gitignore
+.vscode
